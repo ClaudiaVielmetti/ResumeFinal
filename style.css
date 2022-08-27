@@ -1,8 +1,10 @@
+
 *{
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
 }
-
+/*Styling and inserting of the jumbotron image
+it needed to be the full length of the page*/
 .jumbotron{
     background-image: url("./images/picture\ 1.jpg");
     height: 80vh;
@@ -11,7 +13,7 @@
     background-repeat: none;
     
 }
-
+/*h1 and h2 is styled before media queriers have been included*/
 .jumbotron h1{
     text-align: center;
     color: whitesmoke;
@@ -26,37 +28,39 @@
     font-size: 35px;    
 
 }
-
+/*The container is the entire jumbotron and its contents*/
 .container{
     padding-top: 160px;
 
 }
-
+/*The nav bar is the bar at the top of the page used when it is in large screens
+such as laptops and desktops. */
 .navbar-nav a{
     color:whitesmoke!important;
     margin: 0 20px;
     margin-top:15px;
     
 }
-
+/*The navbar toggler appears when the screen size is adjusted to smaller sizes
+such as mobiles. the navbar will change into a collapsible hamburger button for easy navigation*/
 .navbar-toggler{
     color:#373f51!important;
     border: none!important;
     outline: none!important;
 }
-
+/*Fonts Awesome icon is used for the hamburger*/
 .navbar-toggler .fa{
     color: #373f51;
     font-size: 33px;
 
 }
-
+/*When mouse hovers over the navbar it will underline the link*/
 .nav-link:hover{
     font-weight: 600;
     border-bottom: 1px solid whitesmoke;
     margin-bottom: -4px;
 }
-
+/*Media queries for larger screens were used to over-ride original css*/
 @media only screen and (max-width:1000px) {
 
      .navbar {
@@ -75,7 +79,7 @@
 
       
 }
-
+/*media queries for smaller screens were used to over ride the css so it is easier to use*/
 @media only screen and (max-width:600px) {
     
     .jumbotron h1 {
@@ -91,4 +95,4 @@
     .container{
         padding:100px;
     }
-}
+}    
