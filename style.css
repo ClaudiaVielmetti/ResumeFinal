@@ -33,12 +33,17 @@ it needed to be the full length of the page*/
     padding-top: 160px;
 
 }
+
+
 /*The nav bar is the bar at the top of the page used when it is in large screens
 such as laptops and desktops. */
 .navbar-nav a{
-    color:whitesmoke!important;
+    color:white!important;
     margin: 0 20px;
     margin-top:15px;
+    background-color: #373f51;
+    opacity: 40%;
+   
     
 }
 /*The navbar toggler appears when the screen size is adjusted to smaller sizes
@@ -57,7 +62,7 @@ such as mobiles. the navbar will change into a collapsible hamburger button for 
 /*When mouse hovers over the navbar it will underline the link*/
 .nav-link:hover{
     font-weight: 600;
-    border-bottom: 1px solid whitesmoke;
+    border-bottom: 1px solid white;
     margin-bottom: -4px;
 }
 /*Media queries for larger screens were used to over-ride original css*/
