@@ -10,7 +10,8 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <!--This header contains a navigation bar as well as a jumbotron-->
+<main  class="main"> 
+    <!--This header contains a navigation bar as well as a jumbotron-->
     <section id="header">
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
@@ -65,8 +66,47 @@ statement-->
     <hr>
   <div class="content">
     <h2 id="Educaton">Education</h2>
-    <i class="fa fa-graduation-cap" aria-hidden="true"></i>
 
+    <div id="carouselExampleCaptions" class="container" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/coder.jpg" class="d-block w-100" alt="coding">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Qualification 1</h5>
+            <p>Currently in the process of studying with CodeSpace Academy to earn a Software Development certificate.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/bord.jpg" class="d-block w-100" alt="bord">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Qualification 2 </h5>
+            <p>Completed a Teaching English as a second or foreign language 160 hours Masters course.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/hotel.jpg" class="d-block w-100" alt="Hotel">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Qualification 3</h5>
+            <p>I completed an International Diploma in Hospitality management at the International College of Hotel Management.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div> 
+    
+<!--
     <h3>Qualification 1</h3>
     <h4>Learning to code: <a href="https://www.codespace.co.za/"
      target="_blank">CodeSpace Academy  </a>
@@ -86,11 +126,11 @@ statement-->
   
       <p>I completed an International Diploma in Hospitality management at the International College of Hotel Management.</p>
 
- 
+ -->
   </div>
 
   
-
+</main>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
