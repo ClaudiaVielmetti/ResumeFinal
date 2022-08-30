@@ -57,7 +57,7 @@
 <header
   class="position-relative vh-100 col-10 col-md-4"
   style="
-    background: url(images/claudia-lrg.jpg) center/cover
+    background: url(images/claudia-big.jpg) center/cover
     no-repeat;
     "
 >
@@ -101,8 +101,16 @@
         <div class="offcanvas-header">
           <h5 class="text-success">More about ME!</h5>
         </div>
+      
         <div class="offcanvas-body">
-          <h4 class="display-4 mb-3">Claudia Vielmetti</h4>
+          <h4 class="display-4">Claudia Vielmetti</h4>
+          
+            <picture>
+              <source media="(max-width: 650px)"srcset="images/profilePhoto-small.jpg">
+              <source media="(max-width: 1000px )" srcset="images/profilePhoto-med.jpg"> 
+              <img src="./images/profilePhoto-med.jpg" alt="Profile" style="float:right;">
+            </picture>
+        
           <h4 class="display-6 mb-4 text-white-50">
             Student of the Web
           </h4>
