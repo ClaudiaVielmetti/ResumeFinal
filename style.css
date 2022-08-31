@@ -137,7 +137,10 @@ such as mobiles. the navbar will change into a collapsible hamburger button for 
     background-color:#333;
 }
 
-
+.btn-primary{
+  background-color: #333;
+  border: none;
+}
 
 /*Responsive sizes for small, med and large screens. the image will change sizes 
 when screen size is adjusted*/
