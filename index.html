@@ -70,7 +70,7 @@ It includes a button to direct you to a off canvas page with more info -->
 </div>
 </header>
 <main class="row col-12 col-md-8">
-  <section id="About" class="ms-3">
+  <section id="About" class="ms-3 mb-1">
     <h2 class="font-monospace mt-4 mb-1">About Me</h2>
     <div class="row col-12 text-success mt-3">
       <div class="col">Aspiring Developer</div>
@@ -85,8 +85,8 @@ It includes a button to direct you to a off canvas page with more info -->
      <strong>"Whether you think you can or you think you can’t, you’re right."</strong> — <em>Henry Ford</em>
     </p>
 
-  <button
-          class="btn btn-outline-success mb-0"
+  <button id="btn"
+          class="btn btn-outline-success"
           type="button"
           data-bs-toggle="offcanvas"
           data-bs-target="#ocAbout"
@@ -94,8 +94,8 @@ It includes a button to direct you to a off canvas page with more info -->
         >
           More about Claudia
         </button>
-<!--This section is the first off canvas page
-it includes information, picture element and a grid-->
+  <!--This section is the first off canvas page
+  it includes information, picture element and a grid-->
         <div
         class="offcanvas offcanvas-end w-75 bg-dark"
         tabindex="-1"
@@ -135,75 +135,86 @@ it includes information, picture element and a grid-->
     </section>
   </section>
 
-  <section id="Education" class="ms-3">
+  <section id="Education mt-1" class="ms3 pt-0">
     <h2 class="font-monospace mt-1">Education</h2>
-    <div class="row row-cols-1 row-cols-md-3 g-1.5 ">
-      <div class="col card bg-transparent">
-        <div class="card h-50">
-          <div class="card-body ">
-            <i class="bi bi-book h1 text-success"></i>
-            <h5 class="card-title mt-1">Qualification 1</h5>
-            <p class="card-text">Currently enrolled.</p>
+    <div class="row row-cols-1 row-cols-md-3">
+        <div class="col card bg-transparent">
+          <div class="card h-100">
+           
+            <div class="card-body">
+              <i class="bi bi-book h1 text-success"></i>
+              <h5 class="card-title">Qualification 1</h5>
+              <p class="card-text">Currently enrolled.</p>
+            </div>
+            <button
+            class="btn btn-outline-success w-100"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#oc_edu"
+            aria-controls="oc_edu"
+          >
+            more...
+          </button>
+          </div>
+        </div>
+        <div class="col card bg-transparent">
+          <div class="card h-100">
+            <div class="card-body">
+              <i class="bi bi-book h1 text-success"></i>
+              <h5 class="card-title">Qualification 2</h5>
+              <p class="card-text">Completed in 2020.</p>
+            </div>
+            <button
+            class="btn btn-outline-success w-100"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#oc_edu"
+            aria-controls="oc_edu"
+          >
+            more...
+          </button> 
+          </div>
+        </div>
+        <div class="col card bg-transparent">
+          <div class="card h-100">
+            <div class="card-body">
+              <i class="bi bi-book h1 text-success"></i>
+              <h5 class="card-title">Qualification 3</h5>
+              <p class="card-text">Completed in 2013.</p>
+            </div>
             <button
                 class="btn btn-outline-success w-100"
                 type="button"
                 data-bs-toggle="offcanvas"
-                data-bs-target="#oc_dev"
-                aria-controls="oc_dev">
+                data-bs-target="#oc_edu"
+                aria-controls="oc_edu"
+              >
                 more...
-                </button>
+              </button>
           </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card h-50">
-        <div class="card-body">
-          <i class="bi bi-book h1 text-success"></i>
-            <h5 class="card-title mt-1">Qualification 2</h5>
-            <p class="card-text">I completed this Qualification in 2020.</p>
-            <button
-            class="btn btn-outline-success w-100"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#oc_dev"
-            aria-controls="oc_dev">
-            more...
-            </button>
-      </div>
-        </div>
-        </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-50">
-          <div class="card-body">
-            <i class="bi bi-book h1 text-success"></i>
-            <h5 class="card-title mt-1">Qualification 3</h5>
-            <p class="card-text">I completed this Qualification in 2013.</p>
-            <button
-            class="btn btn-outline-success w-100"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#oc_dev"
-            aria-controls="oc_dev">
-            more...
-            </button>
-          </div>
-         
-            
-          </div>
-        </div>
-      </div>
+      
+      
     </div>
-    
-    
-        
+  </section>      
           
           <div
             class="offcanvas offcanvas-end w-75 bg-dark"
             tabindex="-1"
-            id="oc_dev"
-          >
+            id="oc_edu">
+
+            <div class="offcanvas-header">
+              <h5 class="text-success">My Education</h5>
+            </div>
+          
+            <div class="offcanvas-body">
+              <h4 class="display-4">What I achieved..</h4>
+              <i class="fa fa-graduation-cap text-success fa-3x" aria-hidden="true"></i>
+
+              
+              
+
+
  
 </main>
 
