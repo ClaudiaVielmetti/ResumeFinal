@@ -101,9 +101,11 @@ It includes a button to direct you to a off canvas page with more info -->
         tabindex="-1"
         id="ocAbout"
       >
+      <!--About me canvas contents
+      with a close button to close canvas-->
         <div class="offcanvas-header">
           <h5 class="text-success">More about ME!</h5>
-          <button class="btn btn-primary text-white-50" type="button" 
+          <button class="btn btn-primary text-white-50 bg-transparent" type="button" 
           data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" 
           aria-controls="offcanvasExample">
             X
@@ -111,7 +113,7 @@ It includes a button to direct you to a off canvas page with more info -->
       
         <div class="offcanvas-body">
           <h4 class="display-4">Claudia Vielmetti</h4>
-          
+          <!--Picture element inserted in the canvas with different sizes-->
             <picture>
               <source media="(max-width: 650px)"srcset="images/profilePhoto-small.jpg">
               <source media="(max-width: 1000px )" srcset="images/profilePhoto-med.jpg"> 
@@ -138,7 +140,8 @@ It includes a button to direct you to a off canvas page with more info -->
       </div>
     </section>
   </section>
-
+<!--This section indicates the educations part with my qualifications
+The first page has 3 cards with buttons. All three buttons will direct you to the same page-->
   <section id="Education mt-1" class="ms3 pt-0">
     <h2 class="font-monospace mt-1">Education</h2>
     <div class="row row-cols-1 row-cols-md-3">
@@ -161,6 +164,8 @@ It includes a button to direct you to a off canvas page with more info -->
           </button>
           </div>
         </div>
+        <!--This is the off canvas page for the qualifications
+        it is a very simple layout to list my qualifications and years completed-->
         <div class="col card bg-transparent">
           <div class="card h-100">
             <div class="card-body">
@@ -201,7 +206,10 @@ It includes a button to direct you to a off canvas page with more info -->
       
     </div>
   </section>      
-          
+          <!--
+          This sections is the education off canvas and includes a close button as well as the info.
+          Flex-grow column was used for this
+          -->
           <div
             class="offcanvas offcanvas-end w-75 bg-dark"
             tabindex="-1"
@@ -209,7 +217,7 @@ It includes a button to direct you to a off canvas page with more info -->
 
             <div class="offcanvas-header">
               <h5 class="text-success">My Education</h5>
-              <button class="btn btn-primary text-white-50" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+              <button class="btn btn-primary text-white-50 bg-transparent" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                 X
             </div>
           
