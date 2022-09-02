@@ -245,3 +245,8 @@ so its just gonna chill there */
   height: 100%;
 }
  
+.socialmedia-buttons{
+  text-align: center;
+  cursor: pointer;
+  font-size: 30px;
+}
