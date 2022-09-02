@@ -142,7 +142,7 @@ It includes a button to direct you to a off canvas page with more info -->
   </section>
 <!--This section indicates the educations part with my qualifications
 The first page has 3 cards with buttons. All three buttons will direct you to the same page-->
-  <section id="Education mt-1" class="ms3 pt-0">
+  <section id="education mt-1" class="ms3 pt-0">
     <h2 class="font-monospace mt-1">Education</h2>
     <div class="row row-cols-1 row-cols-md-3">
         <div class="col card bg-transparent">
@@ -257,9 +257,104 @@ The first page has 3 cards with buttons. All three buttons will direct you to th
             <div class="flex-shrink-0"><span class="text-success mx-2">Completed - 2013</span></div>
         </div>
             </div>
+          </div>
+          <section id="Experience" class="ms-3 mb-1">
+            <h2 class="font-monospace mt-4 mb-1">Experience</h2>
+            
+           <p class="text-secondary mt-3">
+            Before I found Software Development, I did some other stuff.
+            It takes a while to figure out our passions - I guess.
+            Take a look at what I kept myself busy with...
+            </p>
+        
+          <button id="btn"
+                  class="btn btn-outline-success"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#ocExp"
+                  aria-controls="ocExp">             
+                  Here!
+          </button>
+       
+                <div
+                class="offcanvas offcanvas-end w-75 bg-dark"
+                tabindex="-1"
+                id="ocExp">
+              
+              <!--About me canvas contents
+              with a close button to close canvas-->
+                <div class="offcanvas-header">
+                  <h5 class="text-success">A few jobs</h5>
+                  <button class="btn btn-primary text-white-50 bg-transparent" type="button" 
+                  data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" 
+                  aria-controls="offcanvasExample">
+                    X
+                </div>
+              
+                <div class="offcanvas-body">
+                  <h4 class="display-4">What I did</h4>
+                  <i class="fa fa-briefcase text-success fa-3x" aria-hidden="true"></i>
+                
+                  <h4 class="display-6 mb-4 text-white-50">
+                    Work..
+                  </h4>
+                  <h4 class="mb-2 font-monospace">Different jobs</h4>
+                  <div class="work">
+                    <div class="row">
+                        <div class="col-md-6 work-img">
+                            <img src="./images/SS.jpg" class="rounded-circle img-fluid" alt=""/>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Teaching</h4>
+                                        <h4 class="subheading">More info.</h4>
+                        <ul class="text-muted">
+                          <li>English Language to kids in China</li>
+                          <li>In China and Online</li>
+                          <li>Sesame Street English</li>
+                          <li>3 years</li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>Personal Assistant</h4>
+                                        <h4 class="subheading">More info.</h4>
+                                        <ul class="text-muted">
+                                          Worked in Dispatch</li>
+                                          <li>Personal Assistant</li>
+                                          <li>Plantimex</li>
+                                          <li>2 years</li> 
+                                        </ul>
+                        </div>
+                        <div class="col-md-6 work-img">
+                            <img src="./images/plantimex.jpg" class="rounded-circle img-fluid" alt=""/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 work-img">
+                             <img src="/images/spa.jpg" class="rounded-circle img-fluid" alt=""/>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Front of house manager</h4>
+                                        <h4 class="subheading">More info.</h4>
+                                        <ul class="text-muted">
+                                          <li>Worked as Front of House Manager</li>
+                                          <li>Worked with clients and Schedules</li>
+                                          <li>Guesthouse and Spa</li>
+                                         <li>1.5 years</li>
+                                        </ul>
+                       
+                    </div>
+                </div>
 
-         
-
+                 
+                   
+                 
+                </div>
+              </div>
+            </section>
+          </section>
+              
 
 
  

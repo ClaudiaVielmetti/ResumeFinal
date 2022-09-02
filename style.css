@@ -16,6 +16,7 @@ it needed to be the full length of the page*/
     
 }
 
+
 /*h1 and h2 is styled before media queriers have been included*/
 .jumbotron h1{
     text-align: center;
@@ -116,7 +117,9 @@ such as mobiles. the navbar will change into a collapsible hamburger button for 
     .container{
         padding:100px;
     }
-}    
+} 
+
+
 /*font style to add some dimension*/
 .text-shadow{
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
@@ -181,3 +184,25 @@ so its just gonna chill there */
     max-height: fit-content; 
      
   }
+
+
+.work-section1 h4{
+    color: #ffa500;
+    font-weight: bold;
+    font-size: 30px;
+}
+.work-section1 .subheading{
+    color: #3931af;
+    font-size: 20px;
+}
+.work-section1 .row
+{
+    margin-top: 10%;
+}
+.work-img 
+{
+    text-align: center;
+}
+.work-img img{
+    width: 40%;
+}
