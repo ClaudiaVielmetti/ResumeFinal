@@ -20,7 +20,7 @@
  
     <!--This header contains a navigation bar as well as a jumbotron-->
     <section id="header">
-<nav class="navbar navbar-expand-lg fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark  bg-dark fixed-top">
         <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" 
                  aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,21 +29,25 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <ul class="navbar-nav mx-auto">
               <li class="nav-item" >
-                <a class="nav-link" aria-current="page" href="#">Education</a>
+                <a class="nav-link" aria-current="page" href="#About">About Me</a>
+              </li>
+              <li class="nav-item" >
+                <a class="nav-link" aria-current="page" href="#education mt-1">Education</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Experience</a>
+                <a class="nav-link" href="#Experience">Experience</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
+                <a class="nav-link" href="#skills">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Interests</a>
+                <a class="nav-link" href="#interests">Interests</a>
               </li>
             </ul>
           </div>
         </div>
-      </nav>    
+      </nav>   
+
    <!--The jumbotron used is fluid as an image needed to be inserted.-->
     </section>
     <div class="jumbotron jumbotron-fluid">
@@ -56,7 +60,7 @@
 
     <!--modal container has a form to send a message-->
 
-<div class="container-modal mt-5">
+<div class="container-modal mt-2">
   <button type="button" class="btn btn-success" data-bs-toggle="modal" 
   data-bs-target="#exampleModal" data-bs-whatever="msg">CLICK HERE!</button>
 
@@ -92,7 +96,7 @@
 with some font. it is set in black and white to compliment the colors of the page -->
 <header
 
-  class="position-relative vh-100 col-12 col-md-4 mt-5"
+  class="position-relative vh-100 col-12 col-md-4 mt-2"
   style="
     background: url(images/claudia-big.jpg) center/cover
     no-repeat;
@@ -394,7 +398,7 @@ The first page has 3 cards with buttons. All three buttons will direct you to th
           </section>
 </main>
 
-                <section id="Experience" class="ms-3 mb-1">
+                <section id="skills" class="ms-3 mb-1">
                   <h2 class="font-monospace mt-4 mb-1">Skills</h2>
                   <p class="text-white-50">CSS</p>
             <div class="progress mb-1">
@@ -445,7 +449,7 @@ The first page has 3 cards with buttons. All three buttons will direct you to th
                </div>
                 </section>
                 
-                <section id="Experience" class="ms-3 mb-1">
+                <section id="interests" class="ms-3 mb-1">
                   <h2 class="font-monospace mt-4 mb-1">Interests</h2>    
                   <div class="container">
                     <div class="box">
@@ -470,7 +474,7 @@ The first page has 3 cards with buttons. All three buttons will direct you to th
         </div>
        </section>
         </section>
-        </main>
+  
   </body>
         <footer>
           <div class="socialmedia-buttons">
