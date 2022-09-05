@@ -89,6 +89,8 @@ such as mobiles. the navbar will change into a collapsible hamburger button for 
       
 }
 
+
+
 #about{
     white-space: normal;
     padding-bottom: 0%;
@@ -185,16 +187,6 @@ so its just gonna chill there */
      
   }
 
-
-.work-section1 h4{
-    color: #ffa500;
-    font-weight: bold;
-    font-size: 30px;
-}
-.work-section1 .subheading{
-    color: #3931af;
-    font-size: 20px;
-}
 .work-section1 .row
 {
     margin-top: 10%;
