@@ -242,7 +242,50 @@ so its just gonna chill there */
 }
 
 .socialmedia-buttons{
-  text-align: center;
+  grid-column: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+.socialmedia-buttons .social-button {
+  display: inline-block;
+  position: relative;
   cursor: pointer;
-  font-size: 30px;
+  width: 8rem;
+  height: 3.125rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5em;
+  
+}
+
+.socialmedia-buttons .social-button:hover, .socialmedia-buttons .social-button:focus {
+   transform: rotate(360deg);
+   transform: rotate(360deg);
+   transform: rotate(360deg);
+}
+.socialmedia-buttons .social-button.facebook:hover, .socialmedia-buttons .social-button.facebook:focus {
+  color: #3b5998;
+}
+.socialmedia-buttons .social-button.Instagram:hover, .socialmedia-buttons .social-button.facebook:focus {
+  color: #bc2a8d;
+}
+.socialmedia-buttons .social-button.Linkedin:hover, .socialmedia-buttons .social-button.facebook:focus {
+  color: #0A66C2;
+}
+.socialmedia-buttons .social-button.github:hover, .socialmedia-buttons .social-button.facebook:focus {
+  color: #6e5494;
+}
+
+.socialmedia-buttons .social-button.email:hover, .socialmedia-buttons .social-button.facebook:focus {
+  color: #BB001B;
 }
