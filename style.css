@@ -93,19 +93,6 @@ such as mobiles. the navbar will change into a collapsible hamburger button for 
 }
 
 
-
-#about{
-    white-space: normal;
-    padding-bottom: 0%;
-    margin-bottom: 0%;
-}
-
-#Education{
-    white-space: normal;
-    padding-top: 0%;
-    margin-top: 0%;
-}
-
 /*media queries for smaller screens were used to over ride the css so it is easier to use*/
 @media only screen and (max-width:600px) {
     
@@ -233,14 +220,6 @@ so its just gonna chill there */
   height: 100%;
 }
  
-
-#skills{
-  width: 88rem;
-}
-.progressbar{
-  margin-left: 3rem;
-}
-
 .socialmedia-buttons{
   grid-column: 3;
   display: flex;
