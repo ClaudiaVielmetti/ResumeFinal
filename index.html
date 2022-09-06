@@ -104,8 +104,7 @@ with some font. it is set in black and white to compliment the colors of the pag
 <div class="position-relative top-50  mt-0 row row-cols-1 text-center">
   <h2 class="display-1 fw-bolder text-light lh-lg">This is me</h2>
   <h4 class="font-monospace">DEVELOPER (in training)</h4>
- <!--This section is the intro page to the about me section
-It includes a button to direct you to a off canvas page with more info -->
+
 </div>
 
 
@@ -113,7 +112,8 @@ It includes a button to direct you to a off canvas page with more info -->
 </header>
 
 
-
+ <!--This section is the intro page to the about me section
+It includes a button to direct you to a off canvas page with more info -->
 <main class="row col-12 col-md-8">
   <section id="About" class="ms-3 mb-1">
     <h2 class="font-monospace mt-4 mb-1">About Me</h2>
@@ -158,6 +158,7 @@ It includes a button to direct you to a off canvas page with more info -->
       
         <div class="offcanvas-body">
           <h4 class="display-4">Claudia Vielmetti</h4>
+
           <!--Picture element inserted in the canvas with different sizes-->
             <picture class="element">
               <source media="(max-width: 650px)"srcset="images/profilePhoto-small.jpg">
@@ -336,6 +337,8 @@ The first page has 3 cards with buttons. All three buttons will direct you to th
                     X
                 </div>
               
+                <!--I have used a responsive table here to show my experience
+                I found the best way for this info is to use a table to keep it in line and neat-->
                 <div class="offcanvas-body">
                   <h4 class="display-4">What I did</h4>
                   <i class="fa fa-briefcase text-success fa-3x" aria-hidden="true"></i>
@@ -343,8 +346,9 @@ The first page has 3 cards with buttons. All three buttons will direct you to th
                     <table class="table text-white-50 bg-transparent ">
                       <thead>
                         <tr>
-                          
-                          <th class="text-success">Position 
+                          <!--Keeping with the flow and style of the resume I added the table headers with the
+                          text of success but i do not want to change the font size at this time-->
+                         <th class="text-success">Position 
                           </th>
                           <th class="text-success">Duties
                           </th>
@@ -365,6 +369,7 @@ The first page has 3 cards with buttons. All three buttons will direct you to th
                             </ul>
                           </td>
                           <td>
+                            <!--All the table rows will include a picture of the company I worked for at that time-->
                             <img src="./images/SS.jpg" class="img-fluid" alt=""/>
                           </td>
                         </tr>
@@ -408,6 +413,10 @@ The first page has 3 cards with buttons. All three buttons will direct you to th
                   </div>
           </section>
 </main>
+<!--This section ends the main, this is because I wanted the Skills and Interests parts not to fall 
+under a canvas instead I chose progress bars with animation for the skills 
+and an animated picture box for the interests.
+This means I could not add it in the main section.-->
 
                 <section id="skills" class="ms-3 mb-1 mx-2 px-3">
                   <h2 class="font-monospace mt-4 mb-1">Skills</h2>
@@ -459,7 +468,11 @@ The first page has 3 cards with buttons. All three buttons will direct you to th
                >30%</div>
                </div>
                 </section>
-                
+  <!--This section ends the main, this is because I wanted the Skills and Interests parts not to fall 
+under a canvas instead I chose progress bars with animation for the skills 
+and an animated picture box for the interests.
+This means I could not add it in the main section.-->
+              
                 <section id="interests" class="ms-3 mb-1">
                   <h2 class="font-monospace mt-4 mb-1">Interests</h2>    
                   <div class="container">
