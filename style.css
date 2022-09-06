@@ -190,17 +190,10 @@ so its just gonna chill there */
      
   }
 
-.work-section1 .row
-{
-    margin-top: 10%;
-}
-.work-img 
-{
-    text-align: center;
-}
-.work-img img{
-    width: 40%;
-}
+  .img-fluid{
+    width: 200px;
+    height: 120px;
+  }
 
 .container {
   display: flex;
@@ -240,6 +233,14 @@ so its just gonna chill there */
   height: 100%;
 }
  
+
+#skills{
+  width: 88rem;
+}
+.progressbar{
+  margin-left: 3rem;
+}
+
 .socialmedia-buttons{
   text-align: center;
   cursor: pointer;
