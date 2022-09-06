@@ -12,13 +12,19 @@ body {
 it needed to be the full length of the page*/
 .jumbotron{
     background-image: url("./images/picture\ 1.jpg");
-    height: 80vh;
-    background-size: cover;
+    background-size:100%;
     background-position: center;
-    background-repeat: none;
+    background-repeat: no-repeat; 
+    height: 80vh;
 
     
 }
+/*media quarries needed for jumbotron picture in mobile view*/
+@media only screen and (max-width: 480px) {
+  .jumbotron {
+  width: 100%;
+  }
+  }
 
 
 /*h1 and h2 is styled before media queriers have been included*/
