@@ -122,6 +122,8 @@ such as mobiles. the navbar will change into a collapsible hamburger button for 
     }
 } 
 
+
+/*some styling for the modal function*/
 .btn {
   text-align: center;
   
@@ -132,7 +134,7 @@ such as mobiles. the navbar will change into a collapsible hamburger button for 
   height: 50px;
   
 }
-
+/*animation shadow on modal button*/
 .container-modal:hover{
     cursor: pointer;
     box-shadow: 0px 12px 15px 10px #333;
