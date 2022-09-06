@@ -12,6 +12,7 @@ body {
 it needed to be the full length of the page*/
 .jumbotron{
     background-image: url("./images/picture\ 1.jpg");
+    background-color: #333;
     background-size:100%;
     background-position: center;
     background-repeat: no-repeat; 
@@ -121,6 +122,22 @@ such as mobiles. the navbar will change into a collapsible hamburger button for 
     }
 } 
 
+.btn {
+  text-align: center;
+  
+}
+
+.container-modal{
+  padding-left: 48%;
+  height: 50px;
+  
+}
+
+.container-modal:hover{
+    cursor: pointer;
+    box-shadow: 0px 12px 15px 10px #333;
+    transition: all 0.3s ease;
+}
 
 /*font style to add some dimension*/
 .text-shadow{
