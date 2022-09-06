@@ -205,6 +205,12 @@ so its just gonna chill there */
   object-fit: cover; 
   transition: .5s;
 }
+.imgBox{
+  border-radius: 0%;
+  border-color: #333;
+  max-width: 100%;
+  max-height: 100rem;
+}
 
 .box > span {
   font-size: 3.8vh;
