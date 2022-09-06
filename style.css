@@ -4,6 +4,10 @@
      
 }
 
+body {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
 /*Styling and inserting of the jumbotron image
 it needed to be the full length of the page*/
 .jumbotron{
