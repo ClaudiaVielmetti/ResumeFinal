@@ -130,8 +130,9 @@ such as mobiles. the navbar will change into a collapsible hamburger button for 
 }
 
 .container-modal{
-  padding-left: 48%;
+  padding-left: 42%;
   height: 50px;
+  
   
 }
 /*animation shadow on modal button*/
